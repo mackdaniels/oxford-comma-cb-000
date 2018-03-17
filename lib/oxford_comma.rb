@@ -7,7 +7,8 @@ def oxford_comma(array)
     return "#{array[0]}, #{array[1]}, and #{array[2]}"
   elsif array.length > 3
     array.collect {|i| i = " #{i}"}
-
+    array = array.join(",")
+    puts array
   else
     return false
   end

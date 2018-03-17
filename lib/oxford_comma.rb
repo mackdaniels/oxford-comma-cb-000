@@ -10,6 +10,7 @@ def oxford_comma(array)
     puts "--------------------------"
     puts array
     puts "--------------------------"
+    return array
   else
     return false
   end

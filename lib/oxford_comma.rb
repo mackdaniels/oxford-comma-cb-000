@@ -8,6 +8,7 @@ def oxford_comma(array)
   elsif array.length > 3
     array.each do |i|
       array[i] = " ------ #{array[i]}"
+    end
     return array
   else
     return false
